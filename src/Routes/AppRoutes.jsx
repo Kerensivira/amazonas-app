@@ -1,12 +1,13 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes  } from "react-router-dom";
+import Login from '../Components/LoginRegistroUser/Login';
 
 
 const AppRouters = () => {
   return (
     <BrowserRouter>
     <Routes>
-    <Route path="/" element = {<SplashScreen/>}/>
+    <Route path="/" element = {<Login/>}/>
     </Routes>
     </BrowserRouter>
   )
